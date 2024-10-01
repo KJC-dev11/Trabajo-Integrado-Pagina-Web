@@ -36,12 +36,20 @@ nav ul{
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+}
+
+nav ul li a{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 nav ul li a:hover{
-    background-color: #FCA311;
-    border-radius: 5px;
+background-color: #FCA311;
+color: #000000;
 }
 
 header{
