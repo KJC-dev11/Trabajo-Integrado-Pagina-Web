@@ -19,3 +19,22 @@ body{
     color:#000000;
     padding: 20px;
 }
+
+nav{background-color: #14213D;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a:hover{
+    background-color: #FCA311;
+    border-radius: 5px;
+}
