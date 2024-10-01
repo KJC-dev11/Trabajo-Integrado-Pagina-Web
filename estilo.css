@@ -165,3 +165,18 @@ form#form-contacto input:focus{
     outline: none;
     border-color: #FCA311;
 }
+
+form#form-contacto button{
+    background-color: #FCA311;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form#form-contacto button:hover{
+    background-color: #14213D;
+    color: #FFFFFF;
+}
