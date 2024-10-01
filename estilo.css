@@ -97,3 +97,71 @@ section.IntentoCarrusel img{
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+section.canciones{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.canciones p {
+    color: #14213D;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+}
+
+section.canciones ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section.canciones li {
+    margin-bottom: 10px;
+    color: #14213D;
+    font-weight: bold;
+}
+
+section.canciones a {
+    color: #FCA311;
+    text-decoration: none;
+}
+
+section.canciones a:hover{
+    text-decoration: underline;
+}
+
+section.formulario-contacto{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form#form-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form#form-contacto label{
+    font-weight: bold;
+    color: #14213D;
+}
+
+form#form-contacto input{
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #14213D;
+}
+
+form#form-contacto input:focus{
+    outline: none;
+    border-color: #FCA311;
+}
