@@ -43,7 +43,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 10px 20px;
+    padding: 8px 18px;
     border-radius: 5px;
 }
 
@@ -100,17 +100,17 @@ section.IntentoCarrusel img{
 
 section.canciones{
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 30px;
     margin: 20px auto;
-    max-width: 800px;
-    border-radius: 100px;
+    max-width: 700px;
+    border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-section.canciones p {
+section.canciones p, section.canciones li {
     color: #14213D;
     font-size: 1.1em;
-    line-height: 1.6em;
+    line-height: 1.8em;
     margin-bottom: 15px;
 }
 
@@ -120,18 +120,17 @@ section.canciones ul {
 }
 
 section.canciones li {
-    margin-bottom: 12px;
-    color: #14213D;
     font-weight: bold;
 }
 
 section.canciones a {
     color: #FCA311;
-    text-decoration: none;
+    font-weight: bold;
 }
 
 section.canciones a:hover{
     text-decoration: underline;
+    color: #14213D;
 }
 
 section.formulario-contacto{
