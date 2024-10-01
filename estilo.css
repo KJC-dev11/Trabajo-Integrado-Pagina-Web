@@ -180,3 +180,11 @@ form#form-contacto button:hover{
     background-color: #14213D;
     color: #FFFFFF;
 }
+
+.error {
+    display: none;
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
