@@ -52,3 +52,10 @@ header p {
     font-size: 1.2em;
     color: #14213D;
 }
+
+section.IntentoCarrusel button{
+    background-color: #14213D;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+}
