@@ -23,10 +23,15 @@ body{
 nav{background-color: #14213D;
     padding: 10px 0;
     margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav ul{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 nav ul li {
@@ -55,6 +60,14 @@ header p {
     color: #14213D;
     text-align: center;
     margin-top: 10px;
+}
+
+section.IntentoCarrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
 }
 
 section.IntentoCarrusel button{
