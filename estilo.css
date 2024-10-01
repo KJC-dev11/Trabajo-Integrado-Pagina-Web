@@ -46,11 +46,15 @@ header{
 header h1 {
     font-size: 2.5em;
     color: #14213D;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
     color: #14213D;
+    text-align: center;
+    margin-top: 10px;
 }
 
 section.IntentoCarrusel button{
