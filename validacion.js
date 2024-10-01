@@ -1,6 +1,7 @@
 function validar() {
     // Primer paso: extraer los inputs
     let user = document.forms['form-contacto']['nombre'];
+    let mail = document.forms['form-contacto']['mail'];
     let pass = document.getElementById('pass');
 
     // Segundo paso: controlar los inputs
@@ -13,8 +14,8 @@ function validar() {
         document.getElementById('spanErrorUser').style.display = 'none';
     }
 
-    // Validar el segundo input (Contraseña)
-    if (pass.value === "" || pass.value.length < 8 || pass.value.length > 16) {
+    // Validar el segundo input (Correo)
+    if (pass.value === "") {
         document.getElementById('spanErrorPass').style.display = 'block';
         return false;
     } else {
