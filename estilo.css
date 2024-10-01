@@ -116,11 +116,11 @@ section.canciones p {
 
 section.canciones ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 section.canciones li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     color: #14213D;
     font-weight: bold;
 }
@@ -186,5 +186,12 @@ form#form-contacto button:hover{
     color: red;
     font-size: 0.9em;
     margin-top: 5px;
+    transition: opacity 0.3s ease;
 }
+
+.error.active {
+    display: block;
+    opacity: 1;
+}
+
 

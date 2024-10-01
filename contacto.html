@@ -17,26 +17,25 @@
         </nav>
 
         <section class="formulario-contacto">
-            <form id="form-contacto">
+            <form id="form-contacto" onsubmit="validar(event)">
                 <label for="nombre">Nombre: </label>
                 <input type="text" id="nombre" name="nombre" maxlength="30" required>
-                <span id="spanErrorUser" class="error">El nombre es obligatorio y debe tener entre 4 y 10 caracteres</span>
-
-                <label for="mail">Correo Electronico: </label>
-                <input type="email" id="mail" name="mail" requierd>
-                <span id="spanErrorUser" class="error">El correo es obligatorio y debe ser valido</span>
+                <span id="spanErrorUser" class="error" style="display:none;">El nombre es obligatorio y debe tener entre 4 y 10 caracteres</span>
+    
+                <label for="mail">Correo Electrónico: </label>
+                <input type="email" id="mail" name="mail" required>
+                <span id="spanErrorMail" class="error" style="display:none;">El correo es obligatorio y debe ser válido</span>
                 
-                <label for="celular">Telefono: </label>
-                <input type="tel" id="celular" name="celular" requierd pattern="[0-9]{10}">
-
+                <label for="celular">Teléfono: </label>
+                <input type="tel" id="celular" name="celular" required pattern="[0-9]{10}">
+                <span id="spanErrorCelular" class="error" style="display:none;">El teléfono es obligatorio y debe tener 10 dígitos</span>
+    
                 <button type="submit">Mandar</button>
-
             </form>
-
+    
             <div id="resultado"></div>
         </section>
-
+    
         <script src="validacion.js"></script>
-        
 </body>
 </html>
