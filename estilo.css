@@ -14,7 +14,7 @@
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
     color:#000000;
     padding: 20px;
@@ -30,7 +30,6 @@ nav ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
 }
 
@@ -43,8 +42,9 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 8px 18px;
+    padding: 10px 20px;
     border-radius: 5px;
+    color: #14213D;
 }
 
 nav ul li a:hover{
@@ -142,6 +142,12 @@ section.formulario-contacto{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+section.formulario-contacto p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6B7280;
+}
+
 form#form-contacto{
     display: flex;
     flex-direction: column;
@@ -163,12 +169,13 @@ form#form-contacto input{
 form#form-contacto input:focus{
     outline: none;
     border-color: #FCA311;
+    box-shadow: 0 0 5px rgba(252, 163, 17, 0.5);
 }
 
 form#form-contacto button{
     background-color: #FCA311;
     color: #000000;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -177,7 +184,6 @@ form#form-contacto button{
 
 form#form-contacto button:hover{
     background-color: #14213D;
-    color: #FFFFFF;
 }
 
 .error {
@@ -191,6 +197,18 @@ form#form-contacto button:hover{
 .error.active {
     display: block;
     opacity: 1;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+#resultado h2{
+    text-align: center;
+    margin-top: 20px;
+    color:#14213D
 }
 
 

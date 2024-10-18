@@ -17,20 +17,20 @@
         </nav>
 
         <section class="formulario-contacto">
+            <h2>Contactanos</h2>
+            <p>Rellena los campos y nos pondremos en contacto contigo lo antes posible!</p>
+
             <form id="form-contacto" onsubmit="validar(event)">
                 <label for="nombre">Nombre: </label>
-                <input type="text" id="nombre" name="nombre" maxlength="30" required>
-                <span id="spanErrorUser" class="error" style="display:none;">El nombre es obligatorio y debe tener entre 4 y 10 caracteres</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="30" >
     
                 <label for="mail">Correo Electrónico: </label>
-                <input type="email" id="mail" name="mail" required>
-                <span id="spanErrorMail" class="error" style="display:none;">El correo es obligatorio y debe ser válido</span>
+                <input type="email" id="mail" name="mail" placeholder="correo@ejemplo.com" >
                 
                 <label for="celular">Teléfono: </label>
-                <input type="tel" id="celular" name="celular" required pattern="[0-9]{10}">
-                <span id="spanErrorCelular" class="error" style="display:none;">El teléfono es obligatorio y debe tener 10 dígitos</span>
+                <input type="tel" id="celular" name="celular" placeholder="10 digitos"  pattern="[0-9]{10}">
     
-                <button type="submit">Mandar</button>
+                <button type="submit">Enviar</button>
             </form>
     
             <div id="resultado"></div>
