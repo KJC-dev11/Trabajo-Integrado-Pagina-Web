@@ -20,12 +20,12 @@
             <h2>Contactanos</h2>
             <p>Rellena los campos y nos pondremos en contacto contigo lo antes posible!</p>
 
-            <form id="form-contacto" onsubmit="validar(event)">
+            <form id="form-contacto" onsubmit="validar(event)" novalidate>
                 <label for="nombre">Nombre: </label>
                 <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="30" >
     
                 <label for="mail">Correo Electrónico: </label>
-                <input type="email" id="mail" name="mail" placeholder="correo@ejemplo.com" >
+                <input type="email" id="mail" name="mail" placeholder="correo@ejemplo.com" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">                
                 
                 <label for="celular">Teléfono: </label>
                 <input type="tel" id="celular" name="celular" placeholder="10 digitos"  pattern="[0-9]{10}">

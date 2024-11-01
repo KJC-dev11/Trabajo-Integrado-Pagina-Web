@@ -76,17 +76,18 @@ section.IntentoCarrusel {
     align-items: center;
     margin: 20px 0;
     gap: 20px;
+    margin: 20px 0;
 }
 
 section.IntentoCarrusel button{
     background-color: #14213D;
     color: #FFFFFF;
-    border: none;
     padding: 10px 15px;
     font-size: 1em;
-    cursor: pointer;
-    margin: 0 10px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 section.IntentoCarrusel button:hover{
@@ -174,12 +175,11 @@ form#form-contacto input:focus{
 
 form#form-contacto button{
     background-color: #FCA311;
-    color: #000000;
-    padding: 15px;
+    color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 1em;
+    padding: 10px;
 }
 
 form#form-contacto button:hover{
@@ -210,5 +210,30 @@ form#form-contacto button:hover{
     margin-top: 20px;
     color:#14213D
 }
+
+.canciones {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.canciones > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 3px solid var(--naranja);
+}
+
+
 
 
